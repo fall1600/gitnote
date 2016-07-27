@@ -43,3 +43,10 @@
 ● 刪除分支
 	$git branch -d feature/issue_008
 	
+● 查看檔案與之前的版本有哪些不同
+	$git diff
+	查看 working directory 中的檔案與 git directory(也就是 repository) 中檔案的內容有哪些不同
+	
+	$git diff --staged
+	查看 staging area 中的檔案與 repository 中檔案的內容有哪些不同
+	
