@@ -31,4 +31,15 @@
 ● 將目前的進度送交給遠端 repository
 	$git push origin master (需再輸入user name, password)
 	$git push -u origin master
-	通常須將個人的進度merge 回 master, then push master to remote repository
+	通常須將個人的進度merge 回 master分支, then push master to remote repository
+
+● 產生分支
+	$git branch feature/issue_008
+	可用斜線 '/' 來做分支的分類
+	分支命名方式
+		避免以斜線開頭
+		字串中不能有兩個連續的點 ..
+		
+● 刪除分支
+	$git branch -d feature/issue_008
+	
