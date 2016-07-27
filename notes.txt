@@ -28,3 +28,7 @@
 	在local 端可將此url 設定名稱(在此設定為 origin)
 	必須先在遠端先建立一個 repository
 	
+● 將目前的進度送交給遠端 repository
+	$git push origin master (需再輸入user name, password)
+	$git push -u origin master
+	通常須將個人的進度merge 回 master, then push master to remote repository
