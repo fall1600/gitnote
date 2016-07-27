@@ -50,3 +50,30 @@
 	$git diff --staged
 	查看 staging area 中的檔案與 repository 中檔案的內容有哪些不同
 	
+● 4種檔案狀態 & 3個工作區域
+
+	a. working directory               b. staging area      c. git directory(repo)
+					|                                |                     |
+					|                                |                     |
+	1. Untracked files(狀態)                 |                     |
+				 or                                |                     |
+	2. Changes not staged for commit(狀態)   |                     |
+					|                                |                     |
+					|        -- git add ->           |                     |
+					|				       3. Changes to be committed(狀態)        |
+					|                                |                     |
+					|                                |   -- git commit ->  |
+					|                                |                     |
+					|                                |               4. Committed(狀態)
+					|                                |                     |
+					|                                |                     |
+		檔案狀態
+			1. Untracked files   : 新增的檔案, 尚未被加入送進repo 過 (試著新增一個檔案在目錄底下, 然後下git diff 看看)
+			2. Changes not ...   : 送過commit 然後又在修改過的狀態 (修改一個已經commit 的檔案, 然後git diff看看)
+			3. Changes to be ..  : 準備要送commit 的檔案
+			4. Committed         : 已經被commit 的檔案
+			
+		工作區域
+			a. working directory : 目前工作的目錄
+			b. staging area      : 暫存準備commit 的區域
+			c. git directory     : 儲存庫
