@@ -5,3 +5,13 @@
 	$git status
 	feel free to check files after your documents(codes) were modified
  
+● 將修改過而且想送commit 的 files 送到staging area(待補充)
+	$git add filenameA.js
+	$git add filenameB.js
+	 ...
+	$git add filenameN.css
+
+● 將staging area 的檔案們做個存檔, 也就是做一個commit
+	$git commit -m "modify for show the basic layer"
+	必須加入註解的參數 -m "你想說的話", 此機制可確保回頭看code 能了解當次存檔的意義
+	
