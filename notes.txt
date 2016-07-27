@@ -15,3 +15,11 @@
 	$git commit -m "modify for show the basic layer"
 	必須加入註解的參數 -m "你想說的話", 此機制可確保回頭看code 能了解當次存檔的意義
 	
+● 萬用字元 * 可用來指定全部
+	$git add "*.txt"
+	用來add 目錄底下全部的txt 檔
+	
+● 萬用字元 . 可用來指定全部
+	$git add .
+	用來add 目錄底下全部的檔案, 但盡量避免 add . 除非你清楚知道這次要commit 的檔案
+	
