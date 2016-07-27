@@ -1,25 +1,25 @@
-¡´ ³Ğ³y¤@­Ó git ªÅ¶¡ (git repository)
+â— å‰µé€ ä¸€å€‹ git ç©ºé–“ (git repository)
 	$git init
 	
-¡´ ¬d¬İ¥Ø«e¥Ø¿ı©³¤UªºÀÉ®×ª¬ºA
+â— æŸ¥çœ‹ç›®å‰ç›®éŒ„åº•ä¸‹çš„æª”æ¡ˆç‹€æ…‹
 	$git status
 	feel free to check files after your documents(codes) were modified
  
-¡´ ±N­×§ï¹L¦Ó¥B·Q°ecommit ªº files °e¨ìstaging area(«İ¸É¥R)
+â— å°‡ä¿®æ”¹éè€Œä¸”æƒ³é€commit çš„ files é€åˆ°staging area(å¾…è£œå……)
 	$git add filenameA.js
 	$git add filenameB.js
 	 ...
 	$git add filenameN.css
 
-¡´ ±Nstaging area ªºÀÉ®×­Ì°µ­Ó¦sÀÉ, ¤]´N¬O°µ¤@­Ócommit
+â— å°‡staging area çš„æª”æ¡ˆå€‘åšå€‹å­˜æª”, ä¹Ÿå°±æ˜¯åšä¸€å€‹commit
 	$git commit -m "modify for show the basic layer"
-	¥²¶·¥[¤Jµù¸Ñªº°Ñ¼Æ -m "§A·Q»¡ªº¸Ü", ¦¹¾÷¨î¥i½T«O¦^ÀY¬İcode ¯à¤F¸Ñ·í¦¸¦sÀÉªº·N¸q
+	å¿…é ˆåŠ å…¥è¨»è§£çš„åƒæ•¸ -m "ä½ æƒ³èªªçš„è©±", æ­¤æ©Ÿåˆ¶å¯ç¢ºä¿å›é ­çœ‹code èƒ½äº†è§£ç•¶æ¬¡å­˜æª”çš„æ„ç¾©
 	
-¡´ ¸U¥Î¦r¤¸ * ¥i¥Î¨Ó«ü©w¥ş³¡
+â— è¬ç”¨å­—å…ƒ * å¯ç”¨ä¾†æŒ‡å®šå…¨éƒ¨
 	$git add "*.txt"
-	¥Î¨Óadd ¥Ø¿ı©³¤U¥ş³¡ªºtxt ÀÉ
+	ç”¨ä¾†add ç›®éŒ„åº•ä¸‹å…¨éƒ¨çš„txt æª”
 	
-¡´ ¸U¥Î¦r¤¸ . ¥i¥Î¨Ó«ü©w¥ş³¡
+â— è¬ç”¨å­—å…ƒ . å¯ç”¨ä¾†æŒ‡å®šå…¨éƒ¨
 	$git add .
-	¥Î¨Óadd ¥Ø¿ı©³¤U¥ş³¡ªºÀÉ®×, ¦ıºÉ¶qÁ×§K add . °£«D§A²M·¡ª¾¹D³o¦¸­ncommit ªºÀÉ®×
+	ç”¨ä¾†add ç›®éŒ„åº•ä¸‹å…¨éƒ¨çš„æª”æ¡ˆ, ä½†ç›¡é‡é¿å… add . é™¤éä½ æ¸…æ¥šçŸ¥é“é€™æ¬¡è¦commit çš„æª”æ¡ˆ
 	
