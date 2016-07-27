@@ -1,0 +1,7 @@
+● 創造一個 git 空間 (git repository)
+	$git init
+	
+● 查看目前目錄底下的檔案狀態
+	$git status
+	feel free to check files after your documents(codes) were modified
+ 
