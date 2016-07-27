@@ -23,3 +23,8 @@
 	$git add .
 	用來add 目錄底下全部的檔案, 但盡量避免 add . 除非你清楚知道這次要commit 的檔案
 	
+● 與一個遠端的 repository 做關聯
+	$git remote add origin https://github.com/finn1990/test.git
+	在local 端可將此url 設定名稱(在此設定為 origin)
+	必須先在遠端先建立一個 repository
+	
